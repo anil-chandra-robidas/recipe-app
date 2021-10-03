@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 233, 219);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.recipe-container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    background-color: brown;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+    display: none;
+}
+
+.errorDisplay {
+    display: block;
+}
+
+.list {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px;
+}
+
+.col-item {
+    border: 1px solid rgb(126, 108, 108);
+    padding: 10px;
+}
+
+
+.modal {
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    width: 300px;
+    height: auto;
+    padding: 20px; 
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: none;
+}
+.modal img {
+    width: 100%;
+    height: 200px;
+}
+
+.pop-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: red;
+    padding: 10px;
+    border-radius: 100%;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
